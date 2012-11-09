@@ -5,7 +5,7 @@
 ```git clone git@github.com:kcurtin/butler.git```
 
 2. Drag the folder into "Drop to Install" to create a new Shell Script
-![Installing the extension](alfred_preferences.png)
+![Installing the extension](https://github.com/kcurtin/butler/blob/master/alfred_preferences.png)
 
 3. Start using it
 

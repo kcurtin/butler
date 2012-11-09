@@ -6,6 +6,8 @@
 
 3. Start using it
 
+***You will have to create your own butler.txt file. Currently it is hard coded into the script. In order to use this you will need to create the file and change the path referenced in the script***
+
 Butler saves the items you add to it in a simple butler.txt file.
 Butler can be used as a scratch pad, a todo list, or just a place to dump ideas and reminders. It is lightweight and easy to use.
 

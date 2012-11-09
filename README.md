@@ -5,7 +5,6 @@
 ```git clone git@github.com:kcurtin/butler.git```
 
 2. Drag the folder into "Drop to Install" to create a new Shell Script
-![Installing the extension](https://github.com/kcurtin/butler/blob/master/alfred_preferences.png)
 
 3. Start using it
 
@@ -40,13 +39,13 @@ function butler {
   ruby /Users/topica/Library/Application\ Support/Alfred/extensions/scripts/butler/butler.rb $@
 }
 ```
+List the contents of the file in pretty format:
 
 ```butler list```
 
-![Pretty terminal output](http://cl.ly/image/0O3F1q1U3J3u)
+Open up your butler.txt file in sublime text 2:
 
-
-```butler open```  will open up your butler.txt file in sublime text 2
+```butler open```
 
 
 

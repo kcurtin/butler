@@ -2,13 +2,9 @@ require_relative 'file_manager'
 
 class Parser
   def self.input_parse(input)
-    puts input
     priority = input.slice!(/\d+$/)  || '9'
-    puts input
     tag      = input.slice!(/#\w+/) || '#zzz'
     input.strip!
-    puts input
-
     FileManager.controller([ priority.to_i, tag, input ])
   end
 

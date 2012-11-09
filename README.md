@@ -2,9 +2,7 @@
 
 1. Clone the repo
 
-```git clone git@github.com:kcurtin/butler.git```
-
-2. Drag the folder into "Drop to Install" to create a new Shell Script
+2. Go to Alfred Preferences, then click on the extensions tab and drag the folder into "Drop to Install" to create a new Shell Script
 
 3. Start using it
 
@@ -15,7 +13,6 @@ Launch Alfred with your global shortcut. The character 'b' will trigger the butl
 
 ```
 b write that blog post #blog 1 
-
 #=> creates a new item 'write that blog post' with a tag 'blog' and a priority '1'
 ```
 
@@ -36,7 +33,7 @@ Add this to your .bash_profile:
 
 ```bash
 function butler {
-  ruby /Users/topica/Library/Application\ Support/Alfred/extensions/scripts/butler/butler.rb $@
+  ruby /Users/YOUR_USERNAME/Library/Application\ Support/Alfred/extensions/scripts/butler/butler.rb $@
 }
 ```
 List the contents of the file in pretty format:
